@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit';
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(186, 216, 233);
+}
+
+
+
+
+.card{
+    height:525px;
+    width: 350px;
+    margin: 100px auto 0;
+    padding: 40px 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    
+}
+
+.qrCodeImg{
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+    position:relative;
+    top: -25px;
+
+}
+
+.topText{
+    font-weight: 800;
+    padding: 0px 25px 25px 25px;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
+
+.botText{
+    font-weight: 300;
+    padding: 15px 15px 10px 15px;
+    font-size: medium;
+    color: grey;
+    text-align: center;
+}
+    
